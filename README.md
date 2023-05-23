@@ -1,13 +1,24 @@
 # Building a Real-time Chat App with ReactJs and Firebase. :writing_hand:
 
-This is the code example for my article on [Building a Real-time Chat App with ReactJs and Firebase](https://www.freecodecamp.org/news/building-a-real-time-chat-app-with-reactjs-and-firebase/) for [FreeCodeCamp](https://freecodecamp.org/). Here is the [live demo](https://react-chat-timonwa.vercel.app/).
+## Introduction 
 
-## Summary
+The project aims to provide a platform where users can send and receive messages in real time. Users can create chat rooms, join existing ones, and exchange messages with other users in the same room. The backend services are hosted on Firebase, and users can authenticate with their Google accounts.
 
+## Features 
 
-### Breakdown:
+The application has the following features:
 
+1. Google User Authentication: Users can log in and log out using their Google accounts via Firebase Authentication.
 
-Please give this repo a ⭐ if it was helpful to you.
+2. Chat Rooms: Users can create, join, and leave chat rooms.
 
-![A screencast demo of the react chat app. I log in in with my Google account, the chat room shows up, then I log out](https://user-images.githubusercontent.com/63044364/211147631-d8b8a732-1572-4801-ba01-99a271b77bc4.gif)
+3. Real-Time Messaging: Messages sent by users appear in the chat room in real time.
+
+4. Message History: The chat application stores the history of messages for each chat room, which is visible to users when they join the room.
+
+5. Private Messaging: Users are able to send private messages to other users.
+
+## Steps to install
+
+Run npm install
+Then run npm start to open the app in your browser.
